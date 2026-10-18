@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#58cc02" />
+      <stop offset="100%" stop-color="#46a302" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#000000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- App Rounded Squircle Icon -->
+  <rect x="32" y="32" width="448" height="448" rx="112" fill="url(#bgGrad)" />
+  <rect x="32" y="440" width="448" height="40" rx="20" fill="#388202" opacity="0.4" />
+
+  <!-- Duo Owl Face in Center -->
+  <g transform="translate(0, -10)">
+    <!-- Belly -->
+    <ellipse cx="256" cy="300" rx="140" ry="130" fill="#78e119" />
+    <!-- Texture -->
+    <path d="M210 270 Q256 295 302 270" stroke="#58cc02" stroke-width="12" fill="none" stroke-linecap="round"/>
+    <path d="M195 320 Q256 348 317 320" stroke="#58cc02" stroke-width="12" fill="none" stroke-linecap="round"/>
+    <path d="M220 370 Q256 395 292 370" stroke="#58cc02" stroke-width="12" fill="none" stroke-linecap="round"/>
+
+    <!-- Eyes (Big Duolingo Expressive Eyes) -->
+    <circle cx="180" cy="200" r="76" fill="#ffffff" filter="url(#shadow)" />
+    <circle cx="332" cy="200" r="76" fill="#ffffff" filter="url(#shadow)" />
+
+    <!-- Pupils -->
+    <circle cx="190" cy="200" r="38" fill="#4b4b4b" />
+    <circle cx="322" cy="200" r="38" fill="#4b4b4b" />
+
+    <!-- Eye Highlights -->
+    <circle cx="204" cy="184" r="14" fill="#ffffff" />
+    <circle cx="336" cy="184" r="14" fill="#ffffff" />
+
+    <!-- Beak -->
+    <polygon points="228,230 284,230 256,285" fill="#ff9600" stroke="#e07a00" stroke-width="6" stroke-linejoin="round" />
+  </g>
+</svg>
+
